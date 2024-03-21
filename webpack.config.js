@@ -4,6 +4,7 @@ module.exports = {
   entry: './src/index.tsx',
   module: {
     rules: [
+      // TypeScript
       {
         test: /\.tsx$/,
         use: 'ts-loader',
